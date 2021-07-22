@@ -32,6 +32,10 @@
                                     <mainClass>hello.HelloWorld</mainClass>
                                 </transformer>
                             </transformers>
+                            <configuration>
+ 
+             <useSystemClassLoader>false</useSystemClassLoader>
+                                </configuration>
                         </configuration>
                     </execution>
                 </executions>
